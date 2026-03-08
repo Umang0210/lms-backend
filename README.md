@@ -1,5 +1,8 @@
 # LMS Backend
 
+[![CI](https://github.com/Umang0210/lms-backend/actions/workflows/ci.yml/badge.svg)](https://github.com/Umang0210/lms-backend/actions/workflows/ci.yml)
+![Node](https://img.shields.io/badge/node-20.x-339933?logo=node.js&logoColor=white)
+
 A simple Node.js + Express backend for user authentication and user management.
 
 ## Tech Stack
