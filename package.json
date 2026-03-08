@@ -4,7 +4,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "check:syntax": "node --check index.js && node --check config/db.js && node --check controllers/userController.js && node --check models/userModel.js && node --check routers/userRoute.js",
+    "test": "npm run check:syntax"
   },
   "keywords": [],
   "author": "",
